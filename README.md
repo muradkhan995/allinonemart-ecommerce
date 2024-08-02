@@ -3,7 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Main Home screen
 ![Alt Text](src/assets/1.png)
-
+# Home screen update 
+![Alt Text](src/assets/3.png)
+# Updated Product list
+![Alt Text](src/assets/4.png)
 # Products Containers
 ![Alt Text](src/assets/2.png)
 ## Available Scripts
