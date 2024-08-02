@@ -13,7 +13,7 @@ const App = () => {
     <Router>
        <NavigationBar />
       {/* <Header /> */}
-      <main className="flex-grow">
+      <main className="flex-grow " >
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/product/:id" element={<ProductPage />} />
