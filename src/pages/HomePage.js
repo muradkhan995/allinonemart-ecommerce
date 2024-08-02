@@ -58,7 +58,7 @@ const HomePage = () => {
               <p className="mt-2">Grocery</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="https://www.ebay.co.uk/itm/296605192161?epid=22052282663&itmmeta=01J48K45WNSGK8G4HYHS2TVCDX&hash=item450f0c0fe1:g:o~IAAOSw0gpmq3oc&itmprp=enc%3AAQAJAAAAwHGltXQ9MS2%2BszbBp%2FimuwOoCObZllVUtVr7KKzJvUNS3A%2BkV3er4tn0QxYECQfeKYCoEKtXliz8IBl5kMz6e6jlHc9K2zOfWLZiimF4%2BzEVtm9X1JFXurW8G2Cule%2BGHx%2FG5rjRt6bAk6Bm86R9TvkG07cKAQb2x3lbWaLVEeVDsxVO2u37X5myBnspL8yCcMz9rjXhpmXMnh0RDHBqJMnL2zrjdUlKvPwTFO2%2Bx3sIwSEhlrYWdut1I7QnzM4u%2Bg%3D%3D%7Ctkp%3ABk9SR7jekJOiZA&edge=0" alt="Home Storage" className="w-32 h-32 object-cover rounded-md mb-2" />
+              <img src="https://i.ebayimg.com/thumbs/images/g/pN0AAOSw2UJjKRzI/s-l500.jpg" alt="Home Storage" className="w-32 h-32 object-cover rounded-md mb-2" />
               <p className="mt-2">Home Storage</p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const HomePage = () => {
               <p className="mt-2">Electronics</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="https://i.ebayimg.com/thumbs/images/g/4ksAAOSwhkhmq8~G/s-l500.jpgg" alt="Books" className="w-32 h-32 object-cover rounded-md mb-2" />
+              <a href="#"><img src="https://i.ebayimg.com/thumbs/images/g/4ksAAOSwhkhmq8~G/s-l500.jpg" alt="Books" className="w-32 h-32 object-cover rounded-md mb-2" /></a>
               <p className="mt-2">Books</p>
             </div>
           </div>
@@ -86,17 +86,17 @@ const HomePage = () => {
               <p className="mt-2">Furniture</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="https://images.unsplash.com/photo-1583018484516-89c840549b6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gardening" className="w-32 h-32 object-cover rounded-md mb-2" />
+              <img src="https://i.ebayimg.com/thumbs/images/g/WhMAAOSwiDBmJpDo/s-l500.jpg" alt="Gardening" className="w-32 h-32 object-cover rounded-md mb-2" />
               <p className="mt-2">Gardening</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div className="flex flex-col items-center">
-              <img src="https://images.unsplash.com/photo-1583018484516-89c840549b6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Outdoor Cooking" className="w-32 h-32 object-cover rounded-md mb-2" />
+              <img src="https://i.ebayimg.com/thumbs/images/g/coMAAOSwTj9moj1E/s-l500.jpg" alt="Outdoor Cooking" className="w-32 h-32 object-cover rounded-md mb-2" />
               <p className="mt-2">Outdoor Cooking</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="https://images.unsplash.com/photo-1583018484516-89c840549b6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Decor & Lighting" className="w-32 h-32 object-cover rounded-md mb-2" />
+              <img src="https://i.ebayimg.com/thumbs/images/g/5XcAAOSwYMJlwVKT/s-l500.jpg" alt="Decor & Lighting" className="w-32 h-32 object-cover rounded-md mb-2" />
               <p className="mt-2">Decor & Lighting</p>
             </div>
           </div>
@@ -305,8 +305,100 @@ const HomePage = () => {
             <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Shop now</button>
           </div>
         </div>
+
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+  <div>
+    <h2 class="text-2xl font-bold mb-4">Top offers</h2>
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        {/* <img src="https://i.imgur.com/Q3vH09s.jpg" alt="Air Conditioner" class="w-full h-auto"> */}
+        <div class="flex justify-center items-center mt-2">
+          <span class="bg-red-500 text-white font-bold px-3 py-1 rounded-md">20% off</span>
+          <span class="ml-2 bg-gray-300 text-gray-700 font-bold px-3 py-1 rounded-md">Limited time deal</span>
+        </div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/1fG825i.jpg" alt="Air Conditioner" class="w-full h-auto"> */}
+        <div class="flex justify-center items-center mt-2">
+          <span class="bg-red-500 text-white font-bold px-3 py-1 rounded-md">29% off</span>
+          <span class="ml-2 bg-gray-300 text-gray-700 font-bold px-3 py-1 rounded-md">Limited time deal</span>
+        </div>
       </div>
     </div>
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        {/* <img src="https://i.imgur.com/xOq1yT3.jpg" alt="Airpods" class="w-full h-auto"> */}
+        <div class="flex justify-center items-center mt-2">
+          <span class="bg-red-500 text-white font-bold px-3 py-1 rounded-md">75% off</span>
+          <span class="ml-2 bg-gray-300 text-gray-700 font-bold px-3 py-1 rounded-md">Limited time deal</span>
+        </div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/5l0v2O4.jpg" alt="Food Processor" class="w-full h-auto"> */}
+        <div class="flex justify-center items-center mt-2">
+          <span class="bg-red-500 text-white font-bold px-3 py-1 rounded-md">20% off</span>
+          <span class="ml-2 bg-gray-300 text-gray-700 font-bold px-3 py-1 rounded-md">Limited time deal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2 class="text-2xl font-bold mb-4">Popular categories</h2>
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        {/* <img src="https://i.imgur.com/f583O5r.jpg" alt="Grocery" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Grocery</div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/j5O76gB.jpg" alt="Home Storage" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Home Storage</div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        {/* <img src="https://i.imgur.com/z5K7o0j.jpg" alt="Electronics" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Electronics</div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/Fz0Kz46.jpg" alt="Books" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Books</div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Shop now</button>
+    </div>
+  </div>
+  <div>
+    <h2 class="text-2xl font-bold mb-4">Garden essentials</h2>
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        {/* <img src="https://i.imgur.com/l8Vq2eA.jpg" alt="Furniture" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Furniture</div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/908vW68.jpg" alt="Gardening" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Gardening</div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        {/* <img src="https://i.imgur.com/qQzI26J.jpg" alt="Outdoor Cooking" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Outdoor cooking</div>
+      </div>
+      <div>
+        {/* <img src="https://i.imgur.com/xZ1jV3m.jpg" alt="Decor & Lighting" class="w-full h-auto"> */}
+        <div class="text-center mt-2">Decor & Lighting</div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Shop now</button>
+    </div>
+  </div>
+</div>
+    </div>
+
   );
 };
 
